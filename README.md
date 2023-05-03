@@ -1,6 +1,6 @@
-# ⚙ SmartQueue Library
+# ⚙ Smart Queue Library
 
-SmartQueue is a Python library that provides a simple queue of tasks that can be executed asynchronously. This library is built on top of Python's built-in `queue` module and is useful when you want to perform multiple tasks that can cause race conditions or I/O conflicts.
+Smart Queue is a Python library that provides a simple queue of synchronous tasks. This library is built on top of Python's built-in `queue` module and is useful when you want to perform multiple tasks that can cause race conditions or I/O conflicts.
 
 ## Installation
 
@@ -11,7 +11,7 @@ python3 setup.py install
 
 ### Usage
 
-SmartQueue provides a `SmartQueue` class, which is the main object for using this library.
+Library provides a `SmartQueue` class, which is the main object for using this library.
 
 ```python
 from smart_queue import SmartQueue, Task
